@@ -1,6 +1,6 @@
 # GeoMapDashboard
 
-**GeoMap Dashboard** is an interactive web application built with Streamlit that allows users to upload zipped shapefiles and visualize geographic polygon and point data on an interactive map. The app provides multiple map styles, attribute tables, and pop-up information for spatial features.
+**GeoMap Dashboard** is an interactive web application built with Streamlit that allows users to upload zipped shapefiles and visualize geographic polygon and point data on an interactive map. The app provides multiple map styles, attribute tables, and pop-up information for spatial features. You can access the live application [here](https://geomapdashboard.streamlit.app/).
 
 ---
 
