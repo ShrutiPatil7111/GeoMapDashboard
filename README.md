@@ -22,9 +22,9 @@
 
 ## Acknowledgments
 
--Built using Streamlit
--Map visualization powered by Folium
--Geospatial data handling with GeoPandas
+- Built using Streamlit
+- Map visualization powered by Folium
+- Geospatial data handling with GeoPandas
 
 ---
 
