@@ -1,31 +1,94 @@
 # GeoMapDashboard
 
-**GeoMap Dashboard** is an interactive web application built with Streamlit that allows users to upload zipped shapefiles and visualize geographic polygon and point data on an interactive map. The app provides multiple map styles, attribute tables, and pop-up information for spatial features. You can access the live application [here](https://geomapdashboard.streamlit.app/).
+**GeoMap Dashboard** is an interactive web application built with **Streamlit** that enables users to upload zipped shapefiles and visualize geospatial polygon and point data on an interactive map.
+
+This dashboard was developed as part of a 21-week internship at [CI Metrics](https://www.ci-metrics.com), and is designed to support data exploration, filtering, and exporting of spatial datasets.
+
+🌐 **Live App:** [https://geomapdashboard.streamlit.app](https://geomapdashboard.streamlit.app/)
 
 ---
 
-## Features
+## 🗺️ Features
 
-- Upload zipped shapefiles containing polygons and points.
-- Interactive map with zoom and pan features.
-- Multiple map tile styles to choose from:
+- ✅ Upload zipped Shapefiles (ZIP containing `.shp`, `.dbf`, `.shx`, etc.)
+- ✅ Visualize polygons and points on an interactive **Folium** map
+- ✅ **Map style switcher** with:
   - OpenStreetMap
   - CartoDB Positron
   - CartoDB Dark Matter
   - Stamen Terrain
   - Stamen Toner
-- Attribute table displaying feature data.
-- Pop-ups on the map showing feature properties.
-- Responsive and easy-to-use interface with sidebar options.
+- ✅ Filter by attribute:
+  - Categorical (via multiselect)
+  - Numeric (via range slider)
+- ✅ Auto-zoom to selected features
+- ✅ View attribute table alongside the map
+- ✅ Export filtered data as **GeoJSON**
+- ✅ Display basic **summary statistics** and geometry types
+- ✅ Custom **legend box** and hover-styled buttons
+- ✅ Sidebar sections:
+  - ℹ️ About the App
+  - 📬 Contact details and links
 
 ---
 
-## Acknowledgments
+## 🖼️ Dashboard Preview
 
-- Built using Streamlit
-- Map visualization powered by Folium
-- Geospatial data handling with GeoPandas
+![GeoMap Dashboard UI](images/dashboard_preview.png)
+![Uploaded File](images/uploaded_file.png)
+![Map](images/map.png)
+![Multiselected Values](images/values.png)
+![Download GeoJSON & Statistics](images/stat.png)
 
 ---
 
-Let me know if you want me to customize it further or add any specific sections!
+## 🛠️ Tech Stack
+
+| Component      | Tool/Library           |
+|----------------|------------------------|
+| Web Framework  | Streamlit              |
+| Geospatial     | GeoPandas              |
+| Mapping        | Folium + Leaflet.js    |
+| Frontend       | HTML (via Streamlit), Custom CSS |
+| Data Handling  | Pandas                 |
+| Deployment     | Streamlit Cloud        |
+
+---
+
+## 📁 Folder Structure
+├── app.py                  # Main application logic  
+├── logo.jpg                # Sidebar branding image  
+├── requirements.txt        # Python dependencies  
+└── README.md               # Project overview
+
+---
+
+## 👩‍💻 Developer Info  
+**Shruti Patil**  
+- 📧 shrutikpatil7111@gmail.com  
+- 🔗 [GitHub Repository](https://github.com/ShrutiPatil7111/GeoMapDashboard)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/shrutipatil71/)
+
+---
+
+## 📌 Acknowledgments  
+- Built using [Streamlit](https://streamlit.io/)  
+- Mapping via [Folium](https://python-visualization.github.io/folium/)  
+- Geospatial analysis via [GeoPandas](https://geopandas.org/)
+
+---
+
+## 💡 Future Enhancements (Optional Ideas)  
+- Add heatmap and clustering options  
+- Enable uploading multiple shapefiles  
+- Time-based filtering or animation for temporal data  
+- OAuth for saving/exporting to cloud storage
+
+---
+
+## ✅ Security Audit
+
+This application was tested with [Bandit](https://bandit.readthedocs.io/) for Python code security issues.  
+**Scan Result:** No issues identified (High, Medium, or Low severity) as of May 31, 2025.
+
+![Proof](images/bandit.png)
