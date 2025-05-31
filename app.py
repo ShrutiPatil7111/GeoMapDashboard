@@ -136,7 +136,7 @@ def main():
     st.title("GeoMap Dashboard")
 
     with st.sidebar:
-        st.image("logo.jpg", width=150)
+        st.image("images/logo.jpg", width=150)
         st.markdown("### GeoMap Dashboard")
         st.caption("Built during Internship @ CI-Metrics")
 
