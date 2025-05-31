@@ -57,7 +57,7 @@ This dashboard was developed as part of a 21-week internship at [CI Metrics](htt
 
 ## 📁 Folder Structure
 ├── app.py                  # Main application logic  
-├── logo.jpg                # Sidebar branding image  
+├── images                  # Dashboard previews  
 ├── requirements.txt        # Python dependencies  
 └── README.md               # Project overview
 
