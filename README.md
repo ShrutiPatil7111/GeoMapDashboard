@@ -84,6 +84,8 @@ This dashboard was developed as part of a 21-week internship at [CI Metrics](htt
 - Time-based filtering or animation for temporal data  
 - OAuth for saving/exporting to cloud storage
 
+---
+
 ## ✅ Security Audit
 
 This application was tested with [Bandit](https://bandit.readthedocs.io/) for Python code security issues.  
