@@ -56,10 +56,11 @@ This dashboard was developed as part of a 21-week internship at [CI Metrics](htt
 ---
 
 ## 📁 Folder Structure
+
 ├── app.py                  # Main application logic  
-├── images/                  # Dashboard previews  
+├── images/                 # Dashboard preview assets  
 ├── .devcontainer/          # Dev container setup for GitHub Codespaces / VS Code  
-   └── devcontainer.json   # Dev container config file 
+│   └── devcontainer.json   # Dev container config file  
 ├── requirements.txt        # Python dependencies  
 └── README.md               # Project overview and instructions
 
