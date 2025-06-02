@@ -57,9 +57,11 @@ This dashboard was developed as part of a 21-week internship at [CI Metrics](htt
 
 ## 📁 Folder Structure
 ├── app.py                  # Main application logic  
-├── images                  # Dashboard previews  
+├── images/                  # Dashboard previews  
 ├── requirements.txt        # Python dependencies  
-└── README.md               # Project overview
+└── README.md               # Project overview and instructions
+├── .devcontainer/          # Dev container setup for GitHub Codespaces / VS Code  
+   └── devcontainer.json   # Dev container config file 
 
 ---
 
@@ -75,6 +77,23 @@ This dashboard was developed as part of a 21-week internship at [CI Metrics](htt
 - Built using [Streamlit](https://streamlit.io/)  
 - Mapping via [Folium](https://python-visualization.github.io/folium/)  
 - Geospatial analysis via [GeoPandas](https://geopandas.org/)
+
+---
+
+## 💻 Development Environment
+
+This project supports **GitHub Codespaces** and **VS Code Dev Containers** for easy setup.
+
+To get started:
+
+- Click the ✏️ **pencil icon** at the top-right of the GitHub repo to launch **Codespaces**.
+- Or use **VS Code** with the *Remote - Containers* extension to open this project locally in a container.
+
+The development environment will:
+- Automatically install all required Python packages from `requirements.txt`
+- Run the Streamlit app inside the container on port `8501`
+
+> ✅ Dev container config is located in `.devcontainer/devcontainer.json`
 
 ---
 
